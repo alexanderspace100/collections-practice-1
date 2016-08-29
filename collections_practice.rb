@@ -30,6 +30,13 @@ def reverse_array(array)
   array.reverse
 end
 
+# or
+# def reverse_array(array)
+#  reversed = []
+#  array.each { |item| reversed.unshift(item) }
+#  reversed
+# end
+
 def kesha_maker(array)
   new_array = []
   array.each do |item|
